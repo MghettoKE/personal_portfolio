@@ -19,13 +19,26 @@ About Me section
 
 #### To view this project locally:
 
-cd to my project which is portfolio_project
-run the server by , python manage.py runserver
+#### 1. Clone the repository:
+
+First, clone the repository to your local machine by running this command in your terminal:
+    git clone https://github.com/MghettoKE/personal_portfolio.git
+
+#### 2. Navigate into the project directory:
+
+cd portfolio_project
+
+#### 3. Open the project:
+
+python manage.py runserver
+      or
+http://127.0.0.1:8000/
+and navigate through
 
 
 Live Demo
 You can view my portfolio online at:
-https://prisca.github.io/personal_portfolio
+https://github.com/MghettoKE/personal_portfolio
 
 Contact
 Email: priscakamanthe31@gmail.com
