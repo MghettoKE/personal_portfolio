@@ -1,0 +1,53 @@
+.grid-container{
+    display: grid;
+    grid-template-areas:
+    'hd hd hd hd'
+    'td td td td'
+    'shd shd shd shd'
+    'fd fd fd fd'
+     ;
+}
+.rounded {
+    border-radius: 50%; /* Makes the image circular */
+}
+body{
+    background-color:antiquewhite;
+}
+#headDiv{
+    grid-area: hd;
+    text-align: center;
+    padding: 100px 0;
+
+}
+#taglineDiv{
+    grid-area: td;
+    text-align: center;
+    margin: 30px 0;
+    background-color: #f8f9fa;
+}
+#skillsDiv{
+    grid-area: shd;
+    margin: 30px 0;
+
+}
+#footerDiv{
+    grid-area: fd;
+            padding: 20px 0;
+            background-color: #f8f9fa;
+}
+ #contact {
+     margin: 30px auto;
+     max-width: 600px;
+ }
+@media only screen and (max-width: 600px) {
+
+  .grid-container{
+    display: grid;
+    grid-template-areas:
+    'hd hd hd hd'
+    'td td td td'
+    'shd shd shd shd'
+    'fd fd fd fd'
+     ;
+}
+}
